@@ -20,5 +20,32 @@ result
 print(10000)  
 執行結果：  
 10000.0
+```python
+age = 18
+result = "%s%d%s"%("Current age:",age,"years old.")
+print (result)
+```
+```python
+age = 18
+result = "%s%d%s"%("Current age:",age,"years old.")
+print (result)
 ```
 
+```python
+list1=[10,20,30,40,50]
+ 
+list1.append(60)
+list1.insert(1, 15)
+list1.extend([70,80])
+print(list1)
+print (1**2,2**3)
+```
+```python
+X,Y = 2,1
+print (8*(X+Y)**2)
+```
+### 這是square ** 的進階power 如pow(x,y,z)有第三數則預設為MOD取餘數
+```python
+print (pow(1,2),pow(2,3,3))
+#這是square **的進階power 如pow(x,y,z)有第三數則預設為MOD取餘數
+```
