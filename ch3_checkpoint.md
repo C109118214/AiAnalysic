@@ -30,7 +30,16 @@ age = 18
 result = "%s%d%s"%("Current age:",age,"years old.")
 print (result)
 ```
-
+|方法名稱|功能|
+|-|-|
+|append( )|加一個元素到字串尾端|
+|extend( )|加一組元素到字串尾端|
+|insert( )|加一組元素到字串中|
+|remove( )|移除字串中的元素|
+|pop( )|取出並回傳指定的元素|
+|sort( )|字串元素從小到大排列|
+|copy( )|複製字串元素|
+|clear( )|清除字串所有元素|
 ```python
 list1=[10,20,30,40,50]
  
@@ -47,7 +56,7 @@ print (1**2,2**3)
 |2|/|除|a / b|
 |2|//|整數除|a // b|
 |2|%|取餘數|a % b|
-|3|+|加|a +b|
+|3|+|加|a + b|
 |3|-|減|a - b|
 ```python
 X,Y = 2,1
@@ -58,3 +67,13 @@ print (8*(X+Y)**2)
 print (pow(1,2),pow(2,3,3))
 #這是square **的進階power 如pow(x,y,z)有第三數則預設為MOD取餘數
 ```
+```python
+A = float(input("輸入整數A:").strip())
+B = float(input("輸入整數B:").strip())
+print (A % B == 0)
+if A%B == 0 :
+    print ("A 是 B 倍數")
+else  :
+    print ("A 不是 B 倍數")
+```
+### print (A % B == 0)直接判斷是否成立(True/False)
