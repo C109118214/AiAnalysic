@@ -68,12 +68,13 @@ print (pow(1,2),pow(2,3,3))
 #這是square **的進階power 如pow(x,y,z)有第三數則預設為MOD取餘數
 ```
 ```python
-A = float(input("輸入整數A:").strip())
-B = float(input("輸入整數B:").strip())
+A = int(input("輸入整數A:").strip())
+B = int(input("輸入整數B:").strip())
 print (A % B == 0)
 if A%B == 0 :
     print ("A 是 B 倍數")
 else  :
     print ("A 不是 B 倍數")
 ```
+### * int整數 * float浮點數
 ### print (A % B == 0)直接判斷是否成立(True/False)
