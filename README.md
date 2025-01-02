@@ -1,5 +1,3 @@
-
-<img src="https://avatars.githubusercontent.com/u/113969919" width="48">
 <img src="https://github.com/C109118214/AiAnalysic/blob/main/image.png" width="500">
 # AiAnalysic  
 
@@ -11,6 +9,9 @@
 
 ```bash  
 pip install pandas openpyxl
+```
+### 使用範例
+```bash  
 import pandas as pd  
 
 file_path = 'C:/Users/USER/Downloads/2330.TW_stock_data.xlsx'  
