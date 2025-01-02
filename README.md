@@ -7,11 +7,11 @@
 
 ### 安裝  
 
-```bash  
+```python 
 pip install pandas openpyxl
 ```
 ### 使用範例
-```bash  
+```python  
 import pandas as pd  
 
 file_path = 'C:/Users/USER/Downloads/2330.TW_stock_data.xlsx'  
