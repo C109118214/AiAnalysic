@@ -1,4 +1,4 @@
-### apply()應用cost自訂函數裡return的數據
+## apply()應用cost自訂函數裡return的數據
 ```python
 import pandas as pd
 
@@ -17,7 +17,7 @@ print(apply_result)
 
 print(df_group[["單價", "數量"]].mean())
 ```
-### concat 資料連接
+## concat 資料連接
 ```python
 import pandas as pd
 
@@ -33,8 +33,14 @@ df["銷售額"] = df["單價"] *df["數量"] #計算銷售額
 df_group = df.groupby("客戶編號")
 print(df_group[["銷售額"]].sum())
 ```
+### 左右連接
+```python
+# 左右連接，根據index相同進行連接
+df = pd.concat( [df_base, df_ex], axis = 1 )
+print(df.shape)
+```
 ![image](https://github.com/user-attachments/assets/6eed0402-dbf6-4e86-b2c5-1a75b0a35ac1)
-### 兩筆資料合併後，列出每個客戶每年每月的總銷售額
+## 兩筆資料合併後，列出每個客戶每年每月的總銷售額
 ```python
 import pandas as pd
 
